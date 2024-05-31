@@ -22,6 +22,13 @@
 a {
   color: unset;
   text-decoration: none;
+  transition: 0.3s ease;
+}
+ul{
+  list-style: none;
+}
+li{
+  cursor: pointer;
 }
 
 .slide-bottom {
