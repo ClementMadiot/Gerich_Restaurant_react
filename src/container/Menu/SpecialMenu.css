@@ -47,9 +47,6 @@
   .app_specialMenu-menu_img{
     width: 650px;
   }
-  .app_specialMenu-menu_img img{
-    height: 920px;
-  }
 }
 @media screen and (max-width: 1250px){
   .app_specialMenu-menu{
