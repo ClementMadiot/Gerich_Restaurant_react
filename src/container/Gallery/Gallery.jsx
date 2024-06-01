@@ -13,13 +13,14 @@ const galleryImages = [images.gallery01,images.gallery02,images.gallery03,images
 
 const Gallery = () => {
   const scrollRef = useRef(null)
+
   const scroll = (direction) => {
     const { current } = scrollRef
 
-    if (direction === 'let') {
-      current.scrollRef -= 300
+    if (direction === 'left') {
+      current.scrollLeft -= 300
     } else {
-      current.scrollRef += 300
+      current.scrollLeft += 300
     }
   }
   return (
@@ -39,6 +40,7 @@ const Gallery = () => {
         {galleryImages.map((image,index) => (
           <div key={`gallery-image-${index + 1}`} className="app_gallery-images_card flex_center">
             <img src={image} alt={`gallery-${index}`} />
+            <BsInstagram className='gallery_image-icon'/>
           </div>
         ))}
         </div>
