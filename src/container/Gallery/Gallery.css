@@ -49,9 +49,12 @@
 .gallery_image-icon {
   position: absolute;
   color: #fff;
-  opacity: 0;
+  opacity: 0.65;
   transition: 0.3s ease;
   cursor: pointer;
+
+  width: 32px;
+  height: 32px;
 }
 
 .app_gallery-images_card img {
@@ -87,4 +90,41 @@
 }
 .gallery_arrow-icon:hover {
   color: var(--color-white);
+}
+
+@media screen and (min-width: 2000px) {
+  .app_gallery-content {
+    min-width: 1000px;
+    padding-right: 4rem;
+  }
+  .app_gallery-images_card{
+    min-width: 400px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .app_gallery{
+    flex-direction: column;
+  }
+  .app_gallery-images {
+    max-width: 100%;
+    margin: 5rem 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .app_gallery {
+    padding: 4rem 0 4rem 4rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app_gallery {
+    padding: 4rem 0 4rem 2rem;
+  }
+  .app_gallery-content {
+    min-width: 100%;
+  }
+  .app_gallery-images_card{
+    min-width: 240px;
+    height: 320px;
+  }
 }

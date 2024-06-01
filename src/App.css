@@ -131,9 +131,9 @@
     margin: 0 0 5rem 0;
   }
 
-  .app_wrapper_img img {
+  /* .app_wrapper_img img {
     width: 100%;
-  }
+  } */
 }
 
 @media screen and (max-width: 850px) {
