@@ -5,7 +5,7 @@ import { images } from '../../constants'
 import './Header.css'
 
 const Header = () => (
-  <div className="app_header app_wrapper section_padding" id="home">
+  <section id="home" className="app_header app_wrapper section_padding" >
     <div className="app_wrapper_info">
       <SubHeading subtitle="Chase the new flavour" title="the key to fine dining"/>
       <p className="p_opensans" style={{ margin:'2rem 0' }}>
@@ -17,7 +17,7 @@ const Header = () => (
     <div className="app_wrapper_img">
       <img src={images.welcome} alt="welcome" />
     </div>
-  </div>
+  </section>
 )
 
 export default Header
