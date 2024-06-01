@@ -1,10 +1,7 @@
 .app_header{
   background-color: var(--color-black);
 }
-.app_header-h1{
-  font-family: var(--font-base);
-  color: var(--color-golden);
-  letter-spacing: 0.04rem;
+#home .headtext_cormorant {
   text-transform: uppercase;
   line-height: 117px;
   font-size: 90px;
@@ -14,13 +11,13 @@
 }
 
 @media screen and (max-width: 650px) {
-  .gericht__header-h1 {
+  #home .headtext_cormorant{
       font-size: 70px;
       line-height: 87px;
   }
 }
 @media screen and (max-width: 450px) {
-  .app_header-h1{
+  #home .headtext_cormorant {
     font-size: 50px;
     line-height: 70px;
   }
