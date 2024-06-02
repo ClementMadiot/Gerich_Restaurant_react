@@ -10,6 +10,17 @@
   justify-content: flex-start;
   align-items: flex-end;
 }
+.app_wrapper_img-reverse {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5rem 0;
+}
+.app_wrapper_img-reverse img{
+  width: 80%;
+}
 .app_chef-content_quote img{
   width: 47px;
   height: 40px;
@@ -33,9 +44,16 @@
   width: 250px;
   margin-top: 3rem;
 }
+
 @media screen and (max-width: 2000px){
   .app_chef-sign img{
     width: 370px;
+  }
+}
+@media screen and (min-width: 1150px){
+  .app_wrapper_img-reverse {
+    margin-right: 4rem;
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 450px){

@@ -9,7 +9,7 @@ footer {
   flex-direction: column;
 
   background-color: var(--color-black);
-  padding-top: 0;
+  padding: 4rem 6rem 0 6rem;
 }
 .app_footer-links {
   display: flex;
@@ -35,7 +35,7 @@ footer {
   margin-bottom: 1rem;
 }
 .app_footer-links_icons {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .app_footer-links_icons svg {
   color: var(--color-white);
@@ -56,7 +56,7 @@ footer {
   line-height: 41.6px;
   margin-bottom: 1rem;
 }
-.footer_copyright {
+.footer-copyright {
   margin-top: 3rem;
 }
 

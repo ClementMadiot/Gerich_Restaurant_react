@@ -6,7 +6,7 @@ import './Chef.css'
 
 const Chef = () => (
   <section className="app_bg app_wrapper section_padding">
-    <div className="app_wrapper_img app_wrapper_img-reverse">
+    <div className="app_wrapper_img-reverse">
       <img src={images.chef} alt="chef" />
     </div>
 

@@ -6,7 +6,7 @@ import { images } from '../../constants'
 import './Footer.css'
 
 const Footer = () => (
-  <footer id="login" className="section_padding">
+  <footer id="login">
     <FooterOverlay />
     <Newsletter />
     <article className="app_footer-links">

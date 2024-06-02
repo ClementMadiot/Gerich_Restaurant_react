@@ -36,9 +36,9 @@ const Intro = () => {
         >
           {/*On the click if playVideo is true (because is running) you can display pause btn else display play fill btn */}
           {playVideo ? (
-            <BsPauseFill color="var(--color-golden)" fontSize={30} />
+            <BsPauseFill className='app_video_icon' fontSize={30} />
           ) : (
-            <BsPlayFill color="var(--color-golden)" fontSize={30} />
+            <BsPlayFill className='app_video_icon' fontSize={30} />
           )}
         </div>
       </div>
