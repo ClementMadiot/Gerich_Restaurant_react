@@ -18,6 +18,9 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+body{
+  background-color: var(--color-black);
+}
 
 a {
   color: unset;
