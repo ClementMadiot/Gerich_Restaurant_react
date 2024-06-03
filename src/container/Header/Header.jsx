@@ -15,7 +15,7 @@ const Header = () => (
     </div>
 
     <div className="app_wrapper_img">
-      <img src={images.welcome} alt="welcome" />
+      <img className='max-width-img' src={images.welcome} alt="welcome" />
     </div>
   </section>
 )

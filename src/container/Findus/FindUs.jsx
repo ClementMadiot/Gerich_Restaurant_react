@@ -19,7 +19,7 @@ const FindUs = () => (
       <button className="custom_button" style={{marginTop:'2rem'}}>Visit Us</button>
     </div>
     <div className="app_wrapper_img">
-      <img src={images.findus} alt="lemonade" />
+      <img className='max-width-img' src={images.findus} alt="lemonade" />
     </div>
   </section>
 )

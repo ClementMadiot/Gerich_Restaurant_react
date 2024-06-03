@@ -7,7 +7,7 @@ import './Chef.css'
 const Chef = () => (
   <section className="app_bg app_wrapper section_padding">
     <div className="app_wrapper_img-reverse">
-      <img src={images.chef} alt="chef" />
+      <img className='max-width-img' src={images.chef} alt="chef" />
     </div>
 
     <div className="app_wrapper_info">

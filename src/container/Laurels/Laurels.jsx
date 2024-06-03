@@ -25,7 +25,7 @@ const Laurels = () => (
     </article>
 
     <div className="app_wrapper_img">
-<img src={images.laurels} alt="laurels" />
+<img className='max-width-img' src={images.laurels} alt="laurels" />
     </div>
   </section>
 );

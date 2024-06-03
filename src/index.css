@@ -30,7 +30,7 @@ ul{
 li{
   cursor: pointer;
 }
-img {
+.max-width-img {
   max-width: 480px;
 }
 
