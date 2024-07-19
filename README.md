@@ -35,7 +35,7 @@ git clone {git remote URL}
 
 > After cloning the repository, run the command `npm install` to install the project's dependencies.
 
-> Once the dependencies are installed, start the project with the command `npm run dev`.
+> Once the dependencies are installed, start the project with the command `npm start`.
 
 ## <br /> <a name="launch-app">🚀 Styling</a>
 
