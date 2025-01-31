@@ -1,10 +1,11 @@
-# Create React App
-
-Geritch is a full responsive, Landing Page restaurant using "React"
-
 <div align="center">
-  <a href="https://main--geritch-restaurant-cm.netlify.app/" target="_blanck"><img src="./src/assets/Geritch-min.png" alt="Geritch"></a>
-  <h3 align="center">Geritch</h3>
+  <a href="https://main--geritch-restaurant-cm.netlify.app/" target="_blanck"><img src="./public/Geritch-min.png" alt="Geritch"></a>
+   <div align="center">
+      <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="28px" alt="css" />
+      <img src="https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square" height="28px" alt="javascript" />
+    </div>
+  <h3 align="center"></h3>
 </div>
 
 ## <br /> 📋 <a name="table">Summary</a>
@@ -16,41 +17,47 @@ Geritch is a full responsive, Landing Page restaurant using "React"
 
 ## <br /> <a name="introduction">✨ Introduction</a>
 
-Web design of the luxurious restaurant. Explore the handcrafted cocktails and the Chef Kevin Luo's culinary vision.
+**[ENG]** Geritch Restaurant is a fictional restaurant website built with React. The website is a single page application that showcases the restaurant's menu, services, and contact information. The website is fully responsive and mobile-friendly. The website is hosted on Netlify.
+
+**[FR]** Geritch Restaurant est un site Web de restaurant fictif construit avec React. Le site Web est une application monopage qui présente le menu, les services et les coordonnées du restaurant. Le site Web est entièrement responsive et mobile-friendly. Le site Web est hébergé sur Netlify.
 
 ## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
 - [react-icon](https://www.npmjs.com/package/react-icons)
-Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
+  Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 
 ## <br /> <a name="launch-app">🚀 Launch App</a>
 
-<br/>**Cloning the Repository**
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+> [!NOTE]
+> Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) _(Node Package Manager)_
+
+**Cloning the Repository**
 
 ```bash
 git clone {git remote URL}
+cd {git project..}
 ```
 
-<br/>**installation**
+**Installation**
 
-> After cloning the repository, run the command `npm install` to install the project's dependencies.
+> After cloning the repository, run the command `npm i` or `yarn i` to install the project's dependencies.
 
-> Once the dependencies are installed, start the project with the command `npm start`.
+> Run the development server:
 
-## <br /> <a name="launch-app">🚀 Styling</a>
-
-Global styling color defined using CSS in the src/index.css file.
-
-```
-:root {
-  --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
-  
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #AAAAAA;
-  --color-white: #FFFFFF;
-}
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
